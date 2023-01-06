@@ -1,0 +1,450 @@
+/*google font & Universal selector start  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
+
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/*google font & Universal selector end  */
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+/* banner style start */
+
+
+.banner-bg{
+    background-image: url(../images/banner/banner2.png);
+    width: 100%;
+    height: 800px;
+    transform: scaleX(-1);
+    text-align: right;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+.banner-item{
+    top: 155px;
+    position: absolute;
+
+    left: 100px;
+    
+}
+
+
+.banner-headline{
+    
+font-weight: 700;
+font-size: 65px;
+color: #151414;
+    
+    
+}
+
+.banner-para{
+    font-size: 15px;
+    width: 440px;
+    color: #444343;
+    text-align: left;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+
+
+.btn{
+    width: 150px;
+    height: 55px;
+    background-color:  #c00;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* banner style css end */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* section style start */
+
+.section-container1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    margin-bottom: 300px;
+}
+
+section-left-bg
+
+.section-left{
+     
+   
+    position: relative; 
+
+}
+
+.section-left-bg{
+    background-image: url(../images/person.png);
+    width: 569px;
+    height: 723.3px;
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+    
+
+}
+
+
+
+.section-left-color{
+    position: absolute;
+    top: 1123px;
+    left: 74px;
+    width: 524px;
+    height: 531px;
+    background-color: green;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 0;
+
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* section left end */
+
+.section-right{
+    width: 416px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 87px;
+}
+
+.section-right h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+
+}
+
+.section-right p{
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.section-right ul{
+    margin-top: 18px;
+    margin-left: -40PX;
+}
+
+.section-right ul li{
+    list-style: none;
+    line-height: 30px;
+
+}
+.fa-solid {
+    color: rgb(22, 216, 135);
+    margin-right: 10px;
+}
+
+/* section1 end */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* my plan style section start */
+
+.my-plan-container{
+    margin-top: 130px;
+}
+
+.my-plan-title{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size:35PX;
+}
+
+.my-plans{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+   
+}
+
+.my-plan-info{
+   text-align: center;
+}
+
+.my-plan-info h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.my-plan-info h4{
+    font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+color: #737272;
+margin-top: 15px;
+}
+
+/* my plan style section end */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* section pic style start */
+
+.section-pic{
+    width: 1140px;
+    height: 300px;
+    background: url(../images/watch.png);
+    margin: 0 auto;
+    margin-top: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 130px;
+
+}
+
+.section-pic-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #44a34c 0%, rgba(241, 91, 34, 0) 100%);
+    
+
+}
+
+.section-pic-info{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 64px;
+    width: 459px;}
+
+    .section-pic-info h2{
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    }
+
+    .section-pic-btn{
+        width: 160px;
+        height: 64px;
+        color: #c00;
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+    }
+
+    /* section pic style end */
+   
+    /* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* extra section style start */
+
+.extra-pic-sec{
+    background: url(../images//extra.jpg);
+width: 1140px;
+height: 257px;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0 auto;
+    
+}
+.extra-bg{
+    position: absolute;
+    background-color: #111;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.extra-title{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    width: 617px;
+    left: 300px;
+    top: 20px; ;
+    text-align: center;
+    
+}
+
+.extra-btn{
+
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    display: flex;
+    gap: 30px;
+    
+   
+}
+
+.extra-btn button{
+    background-color: #c00;;
+    width: 160px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* extra section style end */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* footer style start */
+
+/* footer left style section */
+
+.footer-container{
+    display: flex;
+    background: #151414;
+    height: 577px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.footer-left{
+    width: 485px;
+    height: 345px;
+    color: #fff;
+}
+
+.footer-left h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.footer-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.fotter-left-contact{
+
+    width: 186px;
+    height: 146px;
+   
+}
+
+.fotter-left-contact h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+.fotter-left-contact img{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* footer left style section end */
+/* 
+footer right style section start */
+
+.footer-right{
+    width: 325px;
+    height: 204px;
+    color: #fff;
+    margin-bottom: 115px;
+}
+
+.footer-right h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.footer-right input{
+    margin-top: 31px;
+    
+}
+
+#footer-email{
+    width:270px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    padding-left: 15px;
+    color: #fff;
+    
+}
+
+input[type="email"]::placeholder {
+    color:#fff
+  }
+
+#footer-btn{
+    width: 150px;
+    height: 55px;
+    background-color:  #fff;
+    color: #c00;;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/* footer style and css end */
+
+/* thank you dear sir for evaluating analyzing my assignment */
+
+/* -----------------------------------The------ End-------------------------------------------------------------- */
+
